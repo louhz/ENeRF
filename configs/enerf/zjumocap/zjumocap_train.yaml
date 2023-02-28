@@ -22,7 +22,8 @@ enerf:
 
 train_dataset:
     data_root: 'zju_mocap'
-    scene: 'CoreView_313'
+#   scene: 'CoreView_387'
+    scene: 'CoreView_393'
     split: train
     frames: [0, 600, 1]
     input_views: [0, -1, 2]
@@ -31,7 +32,8 @@ train_dataset:
 
 test_dataset:
     data_root: 'zju_mocap'
-    scene: 'CoreView_313'
+#   scene: 'CoreView_387'
+    scene: 'CoreView_393'
     split: test
     frames: [0, 600, 100]
     input_views: [0, -1, 2]
