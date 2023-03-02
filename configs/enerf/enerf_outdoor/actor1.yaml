@@ -8,7 +8,7 @@ network_module: lib.networks.enerf.network_composite
 loss_module: lib.train.losses.enerf
 evaluator_module: lib.evaluators.enerf_composite
 visualizer_module: lib.visualizers.enerf
-gpus: 1
+gpus: 2
 
 num_fg_layers: 1
 # task config
