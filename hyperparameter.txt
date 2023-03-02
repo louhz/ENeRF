@@ -1,3 +1,6 @@
 export workspace=/DATA_EDS/louhz/enerf/data
 
 python train_net.py --cfg_file configs/enerf/zjumocap/zjumocap_train.yaml
+
+
+python train_net.py --cfg_file configs/enerf/enerf_outdoor/actor1.yaml
